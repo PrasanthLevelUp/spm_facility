@@ -8,7 +8,7 @@ import About from './pages/About'
 import Services from './pages/Services'
 import Industries from './pages/Industries'
 import WhyUs from './pages/WhyUs'
-import Uniforms from './pages/Uniforms'
+// import Uniforms from './pages/Uniforms'
 import Contact from './pages/Contact'
 
 function ScrollToTop() {

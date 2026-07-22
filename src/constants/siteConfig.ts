@@ -25,7 +25,7 @@ export const navLinks = [
   { label: 'Services', path: '/services' },
   { label: 'Industries', path: '/industries' },
   { label: 'Why Us', path: '/why-us' },
-  { label: 'Uniforms', path: '/uniforms' },
+  // { label: 'Uniforms', path: '/uniforms' },
   { label: 'Contact', path: '/contact' },
 ]
 
