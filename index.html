@@ -3,6 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/png" href="/logo.png" />
+    <script>
+      (function () {
+        var canvas = document.createElement('canvas');
+        canvas.width = 64; canvas.height = 64;
+        var ctx = canvas.getContext('2d');
+        ctx.fillStyle = '#1E3A5F';
+        if (ctx.roundRect) { ctx.roundRect(0, 0, 64, 64, 10); } else { ctx.rect(0, 0, 64, 64); }
+        ctx.fill();
+        var img = new Image();
+        img.onload = function () {
+          ctx.drawImage(img, 4, 4, 56, 56);
+          var link = document.querySelector("link[rel='icon']");
+          if (link) link.href = canvas.toDataURL('image/png');
+        };
+        img.src = '/logo.png';
+      })();
+    </script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SPM Facility Services | Electrical | Plumbing | Housekeeping | CCTV | Chengalpattu</title>
     <meta name="description" content="Professional Facility & Maintenance Services in Chengalpattu. Electrical, Plumbing, Housekeeping, CCTV Installation, General Maintenance and Security Services." />
