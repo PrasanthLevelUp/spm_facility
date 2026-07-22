@@ -19,7 +19,7 @@ export default function Footer() {
             <img
               src="/logo.png"
               alt="SPM Facility Services Logo"
-              className="h-12 w-auto rounded-md bg-white/90 p-1"
+              className="h-12 w-auto rounded-lg bg-navy p-1.5 overflow-hidden"
             />
             <span className="text-lg font-bold text-white">{company.name}</span>
           </div>

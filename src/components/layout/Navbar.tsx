@@ -13,7 +13,7 @@ export default function Navbar() {
           <img
             src="/logo.png"
             alt="SPM Facility Services Logo"
-            className="h-11 w-auto rounded-lg bg-navy p-1.5"
+            className="h-11 w-auto rounded-lg bg-navy p-1.5 overflow-hidden"
           />
           <span className="text-base font-bold leading-tight text-navy sm:text-lg">
             {company.name}
