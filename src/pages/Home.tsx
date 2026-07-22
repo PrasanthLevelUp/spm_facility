@@ -34,7 +34,7 @@ export default function Home() {
             transition={{ duration: 0.6 }}
             src="/logo.png"
             alt="SPM Facility Services Logo"
-            className="mb-8 h-24 w-auto rounded-2xl bg-white p-3 shadow-xl sm:h-32"
+            className="mb-8 h-24 w-auto rounded-2xl bg-navy p-3 shadow-xl sm:h-32 overflow-hidden"
           />
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
